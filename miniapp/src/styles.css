@@ -1,0 +1,9 @@
+:root { color-scheme: dark; font-family: "Segoe UI", sans-serif; }
+body { margin: 0; background: #120e18; color: #f7f2f8; }
+main { padding: 20px; max-width: 520px; margin: 0 auto; }
+.card { background: #1c1524; border-radius: 18px; padding: 16px; margin-bottom: 12px; }
+button, input { font: inherit; border-radius: 12px; border: 0; padding: 10px 12px; }
+button { background: linear-gradient(135deg, #ff5d8f, #8b6cff); color: white; }
+input { background: #100c14; color: white; width: 100%; margin-bottom: 8px; }
+.row { display: flex; justify-content: space-between; gap: 8px; padding: 6px 0; }
+.muted { color: #b7a8c2; }

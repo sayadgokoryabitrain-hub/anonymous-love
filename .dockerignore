@@ -1,0 +1,13 @@
+.venv
+venv
+__pycache__
+.pytest_cache
+.git
+.env
+admin/node_modules
+miniapp/node_modules
+admin/dist
+miniapp/dist
+backups
+*.md
+tests

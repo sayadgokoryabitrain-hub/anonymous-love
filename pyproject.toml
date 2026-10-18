@@ -1,0 +1,15 @@
+[project]
+name = "anonymous-love"
+version = "1.0.0"
+description = "ANONYMOUS LOVE — anonymous Telegram dating service"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
